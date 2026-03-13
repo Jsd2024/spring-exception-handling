@@ -1,0 +1,56 @@
+{
+  "info": {
+    "_postman_id": "9ef1c91e-4932-4a5d-a0b7-dc6edcc6bf31",
+    "name": "Spring-Boot-Exception-Handler-Postman-Collections",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "8475586"
+  },
+  "item": [
+    {
+      "name": "UserCustomEx-NotAllowed",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:9091/get/David",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "9091",
+          "path": [
+            "get",
+            "David"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "UserCustomEx-Allowed",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:9091/get/Alice",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "9091",
+          "path": [
+            "get",
+            "Alice"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
